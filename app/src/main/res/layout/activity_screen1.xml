@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:animateLayoutChanges="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen1">
+
+    <TextView
+        android:id="@+id/txtbat2runs"
+        android:layout_width="32dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/txtbat1"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/txtbat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/txtbat2balls"
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/txtbat1runs"
+        app:layout_constraintTop_toBottomOf="@+id/txtWickets" />
+
+    <TextView
+        android:id="@+id/txtOver"
+        android:layout_width="56dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginLeft="224dp"
+        android:layout_marginTop="596dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtBall"
+        android:layout_width="46dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="596dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="604dp"
+        android:gravity="center_horizontal"
+        android:text="."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="109dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="552dp"
+        android:gravity="center_horizontal"
+        android:text="Overs"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="109dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="552dp"
+        android:gravity="center_horizontal"
+        android:text="Runs"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="53dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="596dp"
+        android:gravity="center_horizontal"
+        android:text="/"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtWickets"
+        android:layout_width="36dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="596dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtRuns"
+        android:layout_width="53dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="596dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ONE"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="59dp"
+        android:text="1"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@mipmap/ball"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/THREE"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="59dp"
+        android:text="3"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@mipmap/ball"
+        app:layout_constraintStart_toEndOf="@+id/TWO"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/FOUR"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="41dp"
+        android:text="4"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@mipmap/ball"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ONE" />
+
+    <Button
+        android:id="@+id/DOT"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="41dp"
+        android:text="Dot"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@mipmap/ball"
+        app:layout_constraintStart_toEndOf="@+id/SIX"
+        app:layout_constraintTop_toBottomOf="@+id/THREE" />
+
+    <Button
+        android:id="@+id/WIDE"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="41dp"
+        android:text="wide"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:background="@mipmap/ball2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FOUR" />
+
+    <Button
+        android:id="@+id/NO_BALL"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="41dp"
+        android:text=" NO   BALL"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:background="@mipmap/ball2"
+        app:layout_constraintStart_toEndOf="@+id/WICKET"
+        app:layout_constraintTop_toBottomOf="@+id/DOT" />
+
+    <Button
+        android:id="@+id/TWO"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="59dp"
+        android:text="2"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@mipmap/ball"
+        app:layout_constraintStart_toEndOf="@+id/ONE"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SIX"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="41dp"
+        android:text="6"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@mipmap/ball"
+        app:layout_constraintStart_toEndOf="@+id/FOUR"
+        app:layout_constraintTop_toBottomOf="@+id/TWO" />
+
+    <Button
+        android:id="@+id/WICKET"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="41dp"
+        android:text="out"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:background="@mipmap/ball2"
+        app:layout_constraintStart_toEndOf="@+id/WIDE"
+        app:layout_constraintTop_toBottomOf="@+id/SIX" />
+
+    <TextView
+        android:id="@+id/txtbat1runs"
+        android:layout_width="32dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/txtbat1"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/txtbat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/txtbat1balls"
+        android:layout_width="42dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/txtbat1runs"
+        app:layout_constraintTop_toBottomOf="@+id/txtWickets" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
